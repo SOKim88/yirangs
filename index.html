@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <title>김이랑 팬명록</title>
+  <style>
+    * {
+      font-family: 'Hahmlet', serif;
+    }
+    .mytitle {
+      width: 100%;
+      height: 500px;
+
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdxD8Ra%2FbtrTGkE70xc%2Fz5sIKqbN4kOUUwsgzV4oZk%2Fimg.jpg);
+      background-position: center;
+      background-size: cover;
+
+      color: white;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mypost {
+      width: 90%;
+      max-width: 500px;
+
+      margin: 20px auto 0px auto;
+      box-shadow: 0px 0px 3px 0px gray;
+      padding: 20px;
+    }
+    .mypost > button {
+      margin-top: 10px;
+    }
+    .cards {
+      margin-top: 20px;
+    }
+    .card {
+      width: 90%;
+      max-width: 500px;
+
+      margin: 10px auto 0px auto;
+      box-shadow: 0px 0px 3px 0px gray;
+    }
+  </style>
+  <script>
+    function hey(){
+        alert('이랑아 사랑해~');
+    }
+  </script>
+</head>
+
+<body>
+    <div class="mytitle">
+        <h1>김이랑 팬명록</h1>
+    </div>
+    <div class="mypost">
+        <div class="form-floating mb-3">
+            <input type="URL" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">닉네임</label>
+        </div>
+        <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                  style="height: 100px"></textarea>
+            <label for="floatingTextarea2">이랑이에게 한마디</label>
+        </div>
+        <button type="button" class="btn btn-dark" onclick="hey()">한마디 남기기</button>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>이랑이 왜이리 이쁘니~? 볼뽀뽀 100번!!</p>
+            <footer class="blockquote-footer">이랑파파</footer>
+          </blockquote>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>이랑이는 미래에 아이돌해도 되겠네요~</p>
+            <footer class="blockquote-footer">사진기사님</footer>
+          </blockquote>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>이랑이 너무 소중해</p>
+            <footer class="blockquote-footer">이랑맘</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
